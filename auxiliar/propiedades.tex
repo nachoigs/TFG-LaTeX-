@@ -1,0 +1,53 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Quita las indentaciones al principio de un párrafo %
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1em}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cambiar el formato de los chapters para que dejen menos espacio antes de ellos %
+\titleformat{\chapter}[display]
+{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+
+\titlespacing*{\chapter}{0pt}{-60pt}{40pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Redefine las enumeraciones para que se le puedan meter propiedades globales y específicas %
+%\setlist[itemize]{noitemsep, topsep=0pt}
+
+%% NO FUNCIONA BIEN CON EL PAQUETE PARA QUITAR ESPACIOS ANTES DE LOS CHAPTERS
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Para que salgan con hipervínculo los títulos del ToC
+\hypersetup{
+	colorlinks,
+	citecolor=black,
+	filecolor=black,
+	linkcolor=black,
+	urlcolor=black
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Para cambiar el nombre del "listing" (lo de meter código)
+\renewcommand{\lstlistingname}{Código}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\lstdefinestyle{custombash}{
+	basicstyle=\footnotesize\ttfamily,
+	breaklines=true,
+	%tabsize=1,
+	resetmargins=true,
+	xleftmargin=0pt,
+	frame=none,
+	showstringspaces=false,
+	backgroundcolor = \color{lightgray},
+} 

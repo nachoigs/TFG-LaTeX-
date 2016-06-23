@@ -1,0 +1,150 @@
+\ifglsentryexists{FTP}{}%
+{%
+\gls@defglossaryentry{FTP}%
+{%
+name={\acronymfont {\glsentryshort {FTP}}},%
+sort={FTP},%
+type={acronym},%
+first={FTP},%
+firstplural={FTPs},%
+text={FTP},%
+plural={FTPs},%
+description={File Transfer Protocol},%
+descriptionplural={File Transfer Protocol},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={File Transfer Protocol},%
+longplural={File Transfer Protocols},%
+short={FTP},%
+shortplural={FTPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{RAM}{}%
+{%
+\gls@defglossaryentry{RAM}%
+{%
+name={\acronymfont {\glsentryshort {RAM}}},%
+sort={RAM},%
+type={acronym},%
+first={RAM},%
+firstplural={RAMs},%
+text={RAM},%
+plural={RAMs},%
+description={Random Access Memory},%
+descriptionplural={Random Access Memory},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Random Access Memory},%
+longplural={Random Access Memorys},%
+short={RAM},%
+shortplural={RAMs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{NAT}{}%
+{%
+\gls@defglossaryentry{NAT}%
+{%
+name={\acronymfont {\glsentryshort {NAT}}},%
+sort={NAT},%
+type={acronym},%
+first={NAT},%
+firstplural={NATs},%
+text={NAT},%
+plural={NATs},%
+description={Network Address Translation},%
+descriptionplural={Network Address Translation},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Network Address Translation},%
+longplural={Network Address Translations},%
+short={NAT},%
+shortplural={NATs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{IP}{}%
+{%
+\gls@defglossaryentry{IP}%
+{%
+name={\acronymfont {\glsentryshort {IP}}},%
+sort={IP},%
+type={acronym},%
+first={IP},%
+firstplural={IPs},%
+text={IP},%
+plural={IPs},%
+description={Internet Protocol},%
+descriptionplural={Internet Protocol},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Internet Protocol},%
+longplural={Internet Protocols},%
+short={IP},%
+shortplural={IPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{LXC}{}%
+{%
+\gls@defglossaryentry{LXC}%
+{%
+name={\acronymfont {\glsentryshort {LXC}}},%
+sort={LXC},%
+type={acronym},%
+first={LXC},%
+firstplural={LXCs},%
+text={LXC},%
+plural={LXCs},%
+description={Linux Containers},%
+descriptionplural={Linux Containers},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Linux Containers},%
+longplural={Linux Containerss},%
+short={LXC},%
+shortplural={LXCs},%
+counter={page},%
+parent={},%
+%
+}%
+}%

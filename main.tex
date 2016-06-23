@@ -1,0 +1,39 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PREAMBULO
+\documentclass[a4paper,12pt,openany]{book}
+\input{./auxiliar/packages}
+\include{./auxiliar/Acronimos}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PROPIEDADES GENERALES %
+\input{./auxiliar/propiedades}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\author{Ignacio Gómez Sáez}
+\title{Simple Book Example}
+\date{January 2013}
+
+\begin{document}
+% Crea un grupo donde el formato que se le de dentro del grupo solo afecta al mismo
+\begingroup
+% Elimina los saltos de página reemplazando el comando cleardoublepage por relax para el grupo
+\let\cleardoublepage\relax
+\frontmatter
+\pagenumbering{gobble}
+\include{./contents/Portada}
+\include{./contents/TOC}
+\include{./contents/Glosario}
+\endgroup
+
+
+\mainmatter
+\include{./contents/Descripcion}
+\include{./contents/Optimizacion.usuario}
+\include{./contents/Optimizacion.contenedores}
+
+
+\backmatter
+% bibliography, glossary and index would go here.
+
+\end{document}
